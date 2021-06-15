@@ -35,6 +35,7 @@ public class IPersistenceTest {
         user.setUsername("舒仁杰");
         //测试修改
         //测试第二次修改
+        //测试第三次修改
         //User userSelectOne = sqlSession.selectOne("user.selectOne", user);
         //System.out.println(userSelectOne);
         List<User> userAll = sqlSession.selectList("user.selectList");
